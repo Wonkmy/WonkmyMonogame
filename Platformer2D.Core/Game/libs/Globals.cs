@@ -16,6 +16,25 @@ namespace WonkmyLibs
         public static McKeyboard keyBoard;
         public static MouseControl mouse;
 
+        public static float gameFPS = 60.0f;
+
+        public static float deltaTime
+        {
+            get
+            {
+                return 1.0f / gameFPS;
+            }
+        }
+
+        public static void SetFPS(float fps)
+        {
+            gameFPS = fps;
+        }
+        public static float GetFPS()
+        {
+            return gameFPS;
+        }
+
         public static int screenHeight, screenWidth;
 
         public static float GetDistance(Vector2 pos, Vector2 target)
