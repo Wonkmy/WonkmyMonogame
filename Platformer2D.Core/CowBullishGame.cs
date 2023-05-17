@@ -15,7 +15,7 @@ namespace WonkmyGame
         Texture2D bg;
         Cow cow;
 
-        float cowMoveSpeed = 220.0f;
+        float cowMoveSpeed = 320.0f;
         public CowBullishGame()
         {
             graphics = new GraphicsDeviceManager(this);

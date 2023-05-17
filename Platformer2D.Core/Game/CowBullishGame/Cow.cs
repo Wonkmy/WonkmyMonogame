@@ -37,7 +37,7 @@ namespace WonkmyGame
         {
             if (Globals.mouse.LeftClick())
             {
-                CanMove = true;
+                SetCanMove(true);
             }
             if (CanMove)
             {
